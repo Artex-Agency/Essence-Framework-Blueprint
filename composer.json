@@ -37,15 +37,15 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/Artex-Agency/Essence-Engine"
-        },
-        {
             "type": "path",
             "url": "../engine",
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Artex-Agency/Essence-Engine"
         }
     ],
     "scripts": {
