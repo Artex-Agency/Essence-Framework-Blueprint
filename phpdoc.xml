@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+        configVersion="3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.phpdoc.org"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/phpDocumentor/phpDocumentor/master/data/xsd/phpdoc.xsd"
+>
+    <title>Artex Essence Blueprint</title>
+    
+    <!-- Specify the output directory for generated documentation -->
+    <paths>
+        <output>docs/php</output>
+    </paths>
+    
+    <version number="1.0.0-dev.1">
+        <api format="php">
+            <source dsn=".">
+                <path>src</path>
+            </source>
+            <output>xml</output>
+            <ignore hidden="true" symlinks="true">
+                <path>tests/**/*</path>
+            </ignore>
+            
+            <!-- Set the default package name to Artex\Essence -->
+            <default-package-name>Artex\Essence</default-package-name>
+            
+            <include-source>true</include-source>
+        </api>
+    </version>
+</phpdocumentor>
