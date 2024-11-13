@@ -58,12 +58,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Artex\\Essence\\": "src/"
-        }
+            "Essence\\Core\\": "src/"
+        },
+        "files": [
+            "src/init.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Artex\\Essence\\Tests\\": "tests/"
+            "Essence\\Core\\Tests\\": "tests/"
         }
     }
 }
